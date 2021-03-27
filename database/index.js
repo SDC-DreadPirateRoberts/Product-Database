@@ -1,5 +1,5 @@
 const pg = require('pg');
-const pgConfig = require('./config.js');
+const pgConfig = require('../dbconfig.js');
 
 const connection = new pg.Pool(pgConfig);
 
